@@ -1,0 +1,303 @@
+
+@font-face {
+  font-family: 'Edo';
+  src: url('edosz.ttf');
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url('Slim Joe.otf');
+}
+
+@font-face {
+  font-family: 'Dense';
+  src: url('Dense-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('Lora-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'MarkOT';
+  src: url('MarkOT-Bold.otf');
+}
+
+@font-face {
+  font-family: 'MarkOT-Light';
+  src: url('MarkOT-Light.otf');
+}
+
+.navbar{
+  background-color: #34e5eb;
+  animation-name: titlecolour;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-size: 1.7rem !important;
+}
+
+
+.titlepage{
+  background-color: #0ae9f5;
+  animation-name: titlecolour;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+}
+
+
+.caption {
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes titlecolour {
+  0%{background-color:  #0ae9f5;}
+  50%{background-color: #30d0fc;}
+  100%{background-color:  #0ae9f5;}
+}
+
+@keyframes fadeIn{
+ 0%{opacity: 0}
+ 100%{opacity: 1}
+}
+
+@keyframes fadeInSlow {
+  0%{opacity: 0}
+  50%{opacity: 0}
+  100%{opacity: 1}
+}
+
+.sp1{
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+.sub1{
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+
+.main1{
+  animation-name: fadeIn;
+  animation-duration: 7s;
+}
+
+.sub2{
+  animation-name: fadeInSlow;
+  animation-duration: 5s;
+}
+
+.sp2{
+  animation-name: fadeInSlow;
+  animation-duration: 7s;
+}
+
+.sdown{
+  animation-name: fadeInSlow;
+  animation-duration: 10s;
+}
+
+.EdoSZ{
+  font-family: Edo;
+}
+
+.subtitle{
+  font-size: 5rem;
+  line-height: 5rem;
+  font-family: Dense;
+  text-transform: uppercase;
+}
+
+.scrolldown{
+  font-family: Slim Joe;
+
+}
+
+.maintitle{
+  font-family: Edo !important;
+  font-size: 10rem;
+  line-height: 10rem;
+}
+
+#navbarmain{
+  position: sticky;
+  top: 0;
+  transition: top 0.3s;
+  font-family: Slim Joe;
+  opacity: 1 !important;
+  z-index: 3;
+}
+
+.black{
+  background-color: #000;
+}
+
+.info{
+  font-family: Lora;
+  font-size: 1.35rem;
+  margin: 1rem 0;
+  line-height: 1.8em;
+}
+
+.colmn-1{
+  flex-basis: 30% !important;
+  padding: 3%;
+}
+
+.colmn-2{
+  flex-basis: 70% !important;
+  padding: 3%;
+}
+
+.about{
+  padding-top: 5vw !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.heading{
+  font-family: "MarkOT", sans-serif;
+  font-weight: 800;
+  word-break: normal;
+  font-size: 5rem;
+  line-height: 1em;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.05em;
+  transition: opacity .5s .25s ease-out
+}
+
+.heading-w{
+  font-family: "MarkOT", sans-serif;
+  font-weight: 800;
+  word-break: normal;
+  font-size: 5rem;
+  line-height: 1em;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.05em;
+}
+
+.heading-w::before{
+  content: "";
+  display: block;
+  width: 20px;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #FFF;
+  margin-bottom: 2vw;
+}
+
+.heading::before{
+  content: "";
+  display: block;
+  width: 20px;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #000;
+  margin-bottom: 2vw;
+}
+
+.heading.sub{
+  font-size: 2rem !important;
+}
+
+.g-grid{
+  padding: 20px 10% 20px 11%;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.g-block{
+  margin-left: 30px;
+  position: relative;
+  padding-bottom: 45px;
+  overflow: hidden;
+}
+
+
+.card-title{
+  font-family: MarkOT, sans-serif;
+  font-weight: 800;
+  word-break: normal;
+  font-size: 2.4vw;
+  line-height: 1em;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.05em;
+  height: 6vw;
+}
+
+.card-text{
+  font-family: Lora;
+  font-size: 1.1rem;
+}
+
+.news-card{
+  border: none !important;
+}
+
+#contactus{
+  font-family: Slim Joe;
+}
+
+#contactusmb{
+  font-family: Slim Joe;
+}
+
+.name{
+  font-family: Edo;
+  font-size: 6vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.bio{
+  font-family: MarkOT-Light;
+  font-size: 1.25vw;
+  overflow: auto;
+}
+
+.custom-toggler{
+  border-color: #000;
+  color: #000;
+}
+
+@media (min-width:576px){
+  .desktop{
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+
+}
+
+.mobile-card-title{
+  font-family: MarkOT, sans-serif;
+  font-weight: 800;
+  word-break: normal;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.05em;
+}
+
+.team-mobile{
+  font-family: Slim Joe;
+}
