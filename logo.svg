@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{font-family:'Poppins-Thin';}
+	.st3{font-size:63.8632px;}
+	.st4{font-size:24px;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="235.9516" y1="188.3551" x2="350.9117" y2="188.3551">
+		<stop  offset="0" style="stop-color:#83BB26"/>
+		<stop  offset="0" style="stop-color:#4EB795"/>
+		<stop  offset="0.5" style="stop-color:#40BBCE"/>
+		<stop  offset="1" style="stop-color:#464F9D"/>
+	</linearGradient>
+	<path class="st0" d="M347.29,78.4L238.21,273.18c-6.55,11.7,1.9,26.12,15.31,26.12h34.57c9.71,0,18.09-6.8,20.09-16.31
+		l42.69-203.26C351.32,77.58,348.37,76.47,347.29,78.4z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="277.9842" y1="348.4966" x2="412.5979" y2="348.4966">
+		<stop  offset="0.0132" style="stop-color:#464F9D"/>
+		<stop  offset="0.5" style="stop-color:#40BBCE"/>
+		<stop  offset="1" style="stop-color:#4EB795"/>
+	</linearGradient>
+	<path class="st1" d="M334.18,250.1L278.1,454.39c-0.88,3.2,3.52,5.04,5.18,2.17l127.56-198.14c4.99-8.62-1.23-19.41-11.19-19.41
+		h-50.92C341.93,239.01,335.98,243.55,334.18,250.1z"/>
+</g>
+<text transform="matrix(1 0 0 1 61.1142 566.1714)" class="st2 st3">SAVITAR RACING</text>
+<text transform="matrix(1 0 0 1 175.2512 605.481)" class="st2 st4">An F1 in Schools team</text>
+<text transform="matrix(1 0 0 1 251.3471 503.6973)" class="st2 st4">We are</text>
+</svg>
